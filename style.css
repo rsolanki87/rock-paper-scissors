@@ -1,0 +1,78 @@
+body {
+    background-color: #4C4746;
+    text-align: center;
+    padding-top: 20px;
+}
+
+h1 {
+    font-size: 50px;
+    color: #F7B124;
+}
+
+h2 {
+    font-size: 40px;
+    color: #F7B124;
+}
+
+.user-selection {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.selection {
+    background: none;
+    color: #FFBF00;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin: 30px;
+    font-size: 3rem;
+    transition: 100ms;
+}
+
+.selection:hover {
+    transform: scale(1.5);   
+}
+
+.results {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    color: #F7B124;
+    padding: 20px;
+    font-size: 2rem;
+}
+
+.user-score {
+    font-size: 1.25rem;
+    margin-left: 10px;
+    color: #d9a53b;
+}
+
+.computer-score {
+    font-size: 1.25rem;
+    margin-left: 10px;
+    color: #d9a53b;
+}
+
+.choices {
+    color: #FFBF00;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 260px;
+}
+
+.playerChoice, .compChoice {
+    color: #FFBF00;
+    opacity: 0.5;
+}
+
+.playerChoice, .compChoice {
+    color: #FFBF00;
+    opacity: 1;
+    font-size: 1.5rem;
+}

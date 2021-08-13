@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Rock, Paper, Scissors</title>
+
+        <meta charset="utf-8"/>
+
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+        <link rel='stylesheet' href='style.css'>
+
+    </head>
+
+    <body>
+        <header>
+            <h1>Rock, Paper, Scissors</h1>
+            <h2>The first to 5 wins</h2>
+        </header>
+
+        <div class="user-selection">
+            <button class='selection' id='rock'><i class="fas fa-hand-rock"></i></button>
+            <button class='selection' id='paper'><i class="fas fa-hand-paper"></i></button>
+            <button class='selection' id='scissors'><i class="fas fa-hand-scissors"></i></button>
+        </div>
+
+        <div class="results">
+            <div>Player
+                <span class="user-score">0</span>
+            </div>
+            <div>Computer
+                <span class="computer-score">0</span>
+            </div>
+        </div>
+
+        <div class='choices'>
+            <div class='playerChoice'><i class="fas fa-hand-rock" id='playerSign'></i></div>
+            <div class='compChoice'><i class="fas fa-hand-rock" id='compSign'></i></div>
+        </div>
+        
+
+        <script src="app.js"></script>
+    </body>
+</html>
