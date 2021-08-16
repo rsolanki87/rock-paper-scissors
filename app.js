@@ -49,7 +49,7 @@ function updateChoices(playerSelection, computerSelection) {
 
 function result(playerScore, computerScore) {
     if(playerScore >= 5 && computerScore < 5) {
-         alert(`Congratulations, You've Won!\nReload to play again`);
+        alert(`Congratulations, You've Won!\nReload to play again`);
     } else if(playerScore < 5 && computerScore >= 5) {
         alert('Sorry, You Lose!\nReload to play again');
     }
