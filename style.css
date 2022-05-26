@@ -2,6 +2,7 @@ body {
     background-color: #4C4746;
     text-align: center;
     padding-top: 20px;
+    overflow-x: hidden;
 }
 
 h1 {
@@ -27,7 +28,7 @@ h2 {
     outline: none;
     cursor: pointer;
     margin: 30px;
-    font-size: 3rem;
+    font-size: 3.5rem;
     transition: 100ms;
 }
 
@@ -47,32 +48,46 @@ h2 {
 }
 
 .user-score {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     margin-left: 10px;
     color: #d9a53b;
 }
 
 .computer-score {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     margin-left: 10px;
     color: #d9a53b;
 }
 
 .choices {
     color: #FFBF00;
-    display: flex;
+    font-size: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    justify-content: space-evenly;
-    gap: 260px;
+    justify-content: center;
 }
 
-.playerChoice, .compChoice {
-    color: #FFBF00;
-    opacity: 0.5;
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 10px 20px 10px;
 }
 
-.playerChoice, .compChoice {
-    color: #FFBF00;
-    opacity: 1;
-    font-size: 1.5rem;
+footer p {
+    color: #F7B124;
+    font-size: 1.10rem;
+}
+
+.link {
+    color: #F7B124;
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 1.10rem;
+}
+
+.link:hover {
+    color: #d9a53b;
+    transform: scale(1.1);
 }
